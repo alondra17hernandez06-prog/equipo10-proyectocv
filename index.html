@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipo 10 | Perfiles Profesionales</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #2563eb;
+            --secondary: #64748b;
+            --accent: #3b82f6;
+            --bg: #f8fafc;
+            --card-bg: #ffffff;
+            --text: #1e293b;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            color: var(--primary);
+            margin-bottom: 10px;
+        }
+
+        .container {
+            max-width: 1000px;
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            border-top: 5px solid var(--primary);
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            margin-top: 0;
+            color: var(--primary);
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 10px;
+        }
+
+        .contact-info {
+            font-size: 0.9rem;
+            margin-bottom: 20px;
+            color: var(--secondary);
+        }
+
+        .contact-info p {
+            margin: 5px 0;
+        }
+
+        h3 {
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: 20px;
+            color: var(--secondary);
+        }
+
+        ul {
+            padding-left: 20px;
+            margin: 10px 0;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        .badge {
+            display: inline-block;
+            background: #dbeafe;
+            color: #1e40af;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-top: 10px;
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background: #e2e8f0;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Integrantes del Equipo 10</h1>
+    <p>Universidad Veracruzana | Ingeniería en Sistemas y TI</p>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2>Cruz Limias Cynthia Jaqueline</h2>
+        <div class="contact-info">
+            <p>📧 cynthialimias5@gmail.com</p>
+            <p>📱 2219508338</p>
+            <p>🎂 19 años</p>
+        </div>
+        <h3>Formación</h3>
+        <p>Ing. en Sistemas (UV) - 2024 Actualidad</p>
+        <p>Técnico en ofimática (CBTIS 79)</p>
+        <h3>Software</h3>
+        <ul>
+            <li>Word, Excel, PowerPoint, Access</li>
+        </ul>
+        <span class="badge">Inglés: Básico</span>
+    </div>
+
+    <div class="card">
+        <h2>Ruth Jadhai Santos Morales</h2>
+        <div class="contact-info">
+            <p>📧 jadhaism15@gmail.com</p>
+            <p>📱 2291384353</p>
+        </div>
+        <h3>Perfil</h3>
+        <p>Estudiante universitaria responsable y organizada con disposición para aprender.</p>
+        <h3>Formación</h3>
+        <p>Universidad Veracruzana – Facultad de Administración (2024 – Actualidad)</p>
+        <h3>Habilidades</h3>
+        <ul>
+            <li>Trabajo en equipo</li>
+            <li>Word y PowerPoint</li>
+        </ul>
+        <span class="badge">Experiencia: En formación</span>
+    </div>
+
+    <div class="card">
+        <h2>Alondra Rodríguez Hernández</h2>
+        <div class="contact-info">
+            <p>📧 alondrarguez1717@gmail.com</p>
+            <p>📱 2294403096</p>
+        </div>
+        <h3>Especialidad</h3>
+        <p>Fundamentos de Redes (CISCO - 42 hrs)</p>
+        <h3>Tecnologías</h3>
+        <ul>
+            <li>Java, Python, MySQL</li>
+            <li>Figma & Canva</li>
+        </ul>
+        <span class="badge">Inglés: Básico</span>
+    </div>
+
+    <div class="card">
+        <h2>Ezequiel Ruiz Miranda</h2>
+        <div class="contact-info">
+            <p>📧 ezequielruizmiranda06@gmail.com</p>
+        </div>
+        <h3>Formación Pro</h3>
+        <p>Certificado Python TOTAL - Udemy (2026)</p>
+        <h3>Proyectos</h3>
+        <p>Integración de bases de datos (MySQL) con interfaz gráfica en Java.</p>
+        <h3>Stack</h3>
+        <ul>
+            <li>Python (1 año), Java (7 meses)</li>
+        </ul>
+        <span class="badge">Inglés: Intermedio</span>
+    </div>
+
+    <div class="card">
+        <h2>Iggi Dikembe Hernandez Armenteros</h2>
+        <div class="contact-info">
+            <p>📧 iggidikembe@gmail.com</p>
+            <p>📱 2298497112</p>
+        </div>
+        <h3>Formación</h3>
+        <p>Ingeniería en Sistemas (UV)</p>
+        <p>Promedio: 8.4/10</p>
+        <h3>Habilidades</h3>
+        <ul>
+            <li>Mantenimiento de Equipos</li>
+            <li>Gestión de TI</li>
+        </ul>
+        <span class="badge" style="background: #dcfce7; color: #166534;">Inglés: Avanzado</span>
+    </div>
+
+</div>
+
+</body>
+</html>
