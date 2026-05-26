@@ -6,3 +6,5 @@
     X-XSS-Protection = "1; mode=block"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
+    Cache-Control = "public, max-age=3600"
+    Permissions-Policy = "geolocation=(), microphone=(), camera=()"
